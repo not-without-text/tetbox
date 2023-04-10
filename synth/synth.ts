@@ -1650,7 +1650,7 @@ export class Instrument {
 	}
 	
 	public static frequencyFromPitch(pitch: number): number {
-		return 440.0 * Math.pow(2.0, (pitch - 69.0) / 12.0);
+		return 440.0 * Math.pow(2.0, (pitch - 69.0) / 19.0);
 	}
 	
 	public addEnvelope(target: number, index: number, envelope: number): void {
